@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 215, 255);
+}
+
+header, section, footer {
+    padding: 50px;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to top right, rgb(255, 0, 140), rgb(253, 121, 251) 60%, purple);    
+}
+
+header h1 {
+    font-size: 3em;
+    color: black;
+    
+}
+
+section {
+    margin: 50px 0;
+}
+
+/* .feature i {
+    font-size: 6rem;
+
+
+}
+#newsletter i{
+    font-size: 6rem;
+} */
+ i{
+    font-size: 6rem;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 10px;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+testimonial blockquote {
+    font-style: italic;
+}
+
+testimonial cite {
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(to top right, rgb(255, 0, 140), rgb(253, 121, 251) 60%, purple);
+}
+footer i{
+    font-size: 2rem;
+    
+
+}
+footer i:hover{
+    color: red;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inner-box{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    overflow-wrap: break-word;
+}

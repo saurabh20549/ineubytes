@@ -1,0 +1,1 @@
+Single scroll based landing page on any digitlal marketing with newletter sign up
